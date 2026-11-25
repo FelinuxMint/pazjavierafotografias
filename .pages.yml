@@ -60,6 +60,14 @@ content:
       - name: title
         label: Título
         type: string
+      - name: layout
+        type: string
+        hidden: true
+        default: page.njk
+      - name: permalink
+        type: string
+        hidden: true
+        default: contacto.html
       - name: body
         label: Contenido
         type: rich-text
@@ -73,6 +81,14 @@ content:
       - name: title
         label: Título
         type: string
+      - name: layout
+        type: string
+        hidden: true
+        default: page.njk
+      - name: permalink
+        type: string
+        hidden: true
+        default: exposiciones.html
       - name: body
         label: Contenido
         type: rich-text

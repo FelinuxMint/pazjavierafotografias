@@ -39,6 +39,14 @@ content:
       - name: title
         label: Título
         type: string
+      - name: layout
+        type: string
+        hidden: true
+        default: page.njk
+      - name: permalink
+        type: string
+        hidden: true
+        default: biografia.html
       - name: body
         label: Contenido
         type: rich-text
